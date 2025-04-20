@@ -7,7 +7,7 @@ class OnboardingBodyView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Column(children: [
-        Expanded(child: OnboardingPageView()),
+        Expanded(child: SafeArea(child: OnboardingPageView())),
       ],),
     );
   }

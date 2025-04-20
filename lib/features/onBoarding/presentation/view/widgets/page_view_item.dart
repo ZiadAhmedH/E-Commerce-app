@@ -39,7 +39,22 @@ class PageViewItem extends StatelessWidget {
                 ),
               ),
 
-            
+              Text(
+                description,
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.black,
+                ),
+
+                textAlign: TextAlign.center,
+              ),
+             
+             Padding(
+               padding: const EdgeInsets.all(16),
+               child: Text("تخط"),
+             ),
+             
             ],
           ),
         ),
