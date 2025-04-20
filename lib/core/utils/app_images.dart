@@ -13,5 +13,21 @@ class Assets {
   /// Assets for assetsLogoMarketLogo
   /// assets/logo/market_Logo.svg
   static const String assetsLogoMarketLogo = "assets/logo/market_Logo.svg";
+
+  /// Assets for assetsLogoPageItem1Oboard
+  /// assets/logo/page_item_1_oboard.svg
+  static const String assetsLogoPageItem1Oboard = "assets/logo/page_item_1_oboard.svg";
+
+  /// Assets for assetsLogoPageItem1Vector
+  /// assets/logo/page_item_1_vector.svg
+  static const String assetsLogoPageItem1Vector = "assets/logo/page_item_1_vector.svg";
+
+  /// Assets for assetsLogoPageItem2Onboard
+  /// assets/logo/page_item_2_onboard.svg
+  static const String assetsLogoPageItem2Onboard = "assets/logo/page_item_2_onboard.svg";
+
+  /// Assets for assetsLogoPageItem2Vector
+  /// assets/logo/page_item_2_vector.svg
+  static const String assetsLogoPageItem2Vector = "assets/logo/page_item_2_vector.svg";
 }
 

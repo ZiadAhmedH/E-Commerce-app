@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 Route<dynamic> onGenerateRoute(RouteSettings settings){
 
   switch(settings.name){
+    
     case SplashView.routeName:
       return MaterialPageRoute(builder: (context) => SplashView(),);
     case OnboardingView.routeName:
