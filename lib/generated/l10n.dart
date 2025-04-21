@@ -70,19 +70,34 @@ class S {
     );
   }
 
-  /// `Welcome to FruitHUB`
-  String get Welcome_to_FruitHUB {
+  /// `We bring you the best handpicked fruits. Check out the details, images, and reviews to ensure you choose the perfect fruit.`
+  String get description_on_board2 {
     return Intl.message(
-      'Welcome to FruitHUB',
-      name: 'Welcome_to_FruitHUB',
+      'We bring you the best handpicked fruits. Check out the details, images, and reviews to ensure you choose the perfect fruit.',
+      name: 'description_on_board2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Get Started`
-  String get Get_started {
-    return Intl.message('Get Started', name: 'Get_started', desc: '', args: []);
+  /// `Welcome to FreshMarket`
+  String get title_on_board1 {
+    return Intl.message(
+      'Welcome to FreshMarket',
+      name: 'title_on_board1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search and Shop`
+  String get title_on_board2 {
+    return Intl.message(
+      'Search and Shop',
+      name: 'title_on_board2',
+      desc: '',
+      args: [],
+    );
   }
 }
 
