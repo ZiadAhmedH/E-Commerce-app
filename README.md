@@ -1,16 +1,42 @@
-# ecommerce_app
+# 🛍️ Fresh Market
 
-A new Flutter project.
+A beautifully crafted Flutter eCommerce application, inspired by the [FruitHUB Figma design](https://www.figma.com/design/oWaxzgl17Hgn50ihv1dM8I/FruitHUB-app?node-id=0-1&p=f&t=sVIo94VT5dVC298d-0). This app follows clean architecture principles and supports multi-language onboarding from the very start.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-3.7.2-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
+![Localization](https://img.shields.io/badge/Localization-Supported-yellow)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📲 Preview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> 🎨 **Figma Design**: [View the UI here](https://www.figma.com/design/oWaxzgl17Hgn50ihv1dM8I/FruitHUB-app?node-id=0-1&p=f&t=sVIo94VT5dVC298d-0)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚧 Current Progress
+
+- ✅ App setup with Flutter 3.7.2
+- ✅ Font integration (Cairo)
+- ✅ Internationalization setup using `flutter_localization`
+- 🚧 Onboarding screens with localized content
+- ⏳ Product catalog, cart, checkout — coming soon
+
+---
+
+## ✨ Features
+
+- 🌐 **Localization**: Supports multiple languages with `.arb` files
+- 🧱 **Clean Architecture**: Feature-first structure for scalability
+- 🎨 **Modern UI**: Based on the FruitHUB Figma design
+- 📦 **Asset Optimization**: Auto-generated asset references
+- 🔜 **Upcoming Features**: Product listings, cart, profile, search
+
+---
+
+## 📁 Folder Structure
+
+lib/<br> ├── core/ <br>     # Shared resources (constants, themes, utils, assets, etc.)<br> <br> ├── features/ <br>     # Feature-first modular architecture<br>     ├── onboarding/ <br>         # Onboarding screens, widgets, logic<br>     └── splash/ <br>         # Splash screen and initial launch logic<br> <br> ├── l10n/ <br>     # Localization files (.arb)<br> <br> └── main.dart <br>     # App entry point<br>
+
+
+## 🙏 Credits
+
+Special thanks to **[Tharwat Samy](https://www.facebook.com/tharwat.samy.9)** for his outstanding Flutter course that inspired and guided the development of this app.
