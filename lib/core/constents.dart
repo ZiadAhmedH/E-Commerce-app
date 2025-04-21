@@ -1,0 +1,1 @@
+const KverticalPadding = 16.0;

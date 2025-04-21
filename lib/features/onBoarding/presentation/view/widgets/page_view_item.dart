@@ -8,11 +8,13 @@ class PageViewItem extends StatelessWidget {
   final String imagePath, imageBackground;
   final String description;
   final Widget title;
-  const PageViewItem({super.key, 
+  final bool isVisabile;
+  const PageViewItem({
+    super.key,
     required this.imagePath,
     required this.imageBackground,
     required this.title,
-    required this.description,
+    required this.description, required this.isVisabile,
   });
 
   @override
@@ -35,13 +37,16 @@ class PageViewItem extends StatelessWidget {
                 child: SvgPicture.asset(imagePath),
               ),
 
-              Padding(
-                padding: const EdgeInsets.all(16),
-                child: CustomText(
-                  text: S.of(context).Skip,
-                  color: Colors.black,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w700,
+              Visibility(
+                visible: isVisabile,
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: CustomText(
+                    text: S.of(context).Skip,
+                    color: Colors.grey,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             ],

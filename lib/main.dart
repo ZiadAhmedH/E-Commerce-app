@@ -5,16 +5,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FreshMarket());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FreshMarket extends StatelessWidget {
+  const FreshMarket({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     
       localizationsDelegates: [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
