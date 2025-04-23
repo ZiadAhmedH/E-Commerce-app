@@ -18,10 +18,8 @@ class CustomText extends StatelessWidget {
       style: TextStyle(
         color: color,
         fontSize: fontSize,
-        fontWeight: fontWeight,
-        fontFamily: 'Cairo',
-        // fontFamily: GoogleFonts.cairo().fontFamily,
-      
+        fontWeight: fontWeight,        // fontFamily: GoogleFonts.cairo().fontFamily,
+    
       ),
     );
   }

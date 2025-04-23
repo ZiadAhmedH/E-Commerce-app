@@ -29,9 +29,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "description_on_board2": MessageLookupByLibrary.simpleMessage(
       "We bring you the best handpicked fruits. Check out the details, images, and reviews to ensure you choose the perfect fruit.",
     ),
-    "title_on_board1": MessageLookupByLibrary.simpleMessage(
-      "Welcome to FreshMarket",
-    ),
+    "title1": MessageLookupByLibrary.simpleMessage("Fresh"),
+    "title1_2": MessageLookupByLibrary.simpleMessage("Market"),
+    "title_on_board1": MessageLookupByLibrary.simpleMessage("Welcome to"),
     "title_on_board2": MessageLookupByLibrary.simpleMessage("Search and Shop"),
   };
 }

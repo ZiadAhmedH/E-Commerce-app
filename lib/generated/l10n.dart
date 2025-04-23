@@ -80,14 +80,24 @@ class S {
     );
   }
 
-  /// `Welcome to FreshMarket`
+  /// `Welcome to`
   String get title_on_board1 {
     return Intl.message(
-      'Welcome to FreshMarket',
+      'Welcome to',
       name: 'title_on_board1',
       desc: '',
       args: [],
     );
+  }
+
+  /// `Fresh`
+  String get title1 {
+    return Intl.message('Fresh', name: 'title1', desc: '', args: []);
+  }
+
+  /// `Market`
+  String get title1_2 {
+    return Intl.message('Market', name: 'title1_2', desc: '', args: []);
   }
 
   /// `Search and Shop`

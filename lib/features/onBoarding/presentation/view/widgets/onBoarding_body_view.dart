@@ -2,6 +2,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:ecommerce_app/core/constents.dart';
 import 'package:ecommerce_app/core/utils/app_color.dart';
 import 'package:ecommerce_app/core/widgets/custem_widgets.dart';
+import 'package:ecommerce_app/features/auth/presentation/view/login_view.dart';
 import 'package:ecommerce_app/features/onBoarding/presentation/view/widgets/onBoarding_page_view.dart';
 import 'package:flutter/material.dart';
 
@@ -55,10 +56,11 @@ class _OnboardingBodyViewState extends State<OnboardingBodyView> {
             replacement: SizedBox(
               height: MediaQuery.of(context).size.height * 0.07,
             ),
-
             child: CustemButtom(
               text: 'ابدأ الان',
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName,(route) =>false ,);
+              },
               color: AppColor.primaryColor,
             ),
           ),
