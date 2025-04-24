@@ -1,8 +1,12 @@
+import 'package:ecommerce_app/core/constents.dart';
+import 'package:ecommerce_app/core/services/shared_prefrences.dart';
 import 'package:ecommerce_app/core/utils/app_images.dart';
 import 'package:ecommerce_app/core/widgets/custom_text.dart';
 import 'package:ecommerce_app/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+
+import '../../../../auth/presentation/view/login_view.dart';
 
 class PageViewItem extends StatelessWidget {
   final String imagePath, imageBackground;
@@ -14,7 +18,8 @@ class PageViewItem extends StatelessWidget {
     required this.imagePath,
     required this.imageBackground,
     required this.title,
-    required this.description, required this.isVisabile,
+    required this.description,
+    required this.isVisabile,
   });
 
   @override
@@ -39,11 +44,18 @@ class PageViewItem extends StatelessWidget {
                 visible: isVisabile,
                 child: Padding(
                   padding: const EdgeInsets.all(16),
-                  child: CustomText(
-                    text: S.of(context).Skip,
-                    color: Colors.grey,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w700,
+                  child: InkWell(
+                    onTap: () {
+                       Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName, (route) => false);
+                       Pref.setBool(isBoardingViewSeen, true);
+                       
+                    }  ,
+                    child: CustomText(
+                      text: S.of(context).Skip,
+                      color: Colors.grey,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ),
               ),

@@ -1,5 +1,6 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:ecommerce_app/core/constents.dart';
+import 'package:ecommerce_app/core/services/shared_prefrences.dart';
 import 'package:ecommerce_app/core/utils/app_color.dart';
 import 'package:ecommerce_app/core/widgets/custem_widgets.dart';
 import 'package:ecommerce_app/features/auth/presentation/view/login_view.dart';
@@ -60,6 +61,7 @@ class _OnboardingBodyViewState extends State<OnboardingBodyView> {
               text: 'ابدأ الان',
               onPressed: () {
                 Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName,(route) =>false ,);
+                Pref.setBool(isBoardingViewSeen, true);
               },
               color: AppColor.primaryColor,
             ),
