@@ -1,24 +1,16 @@
+import 'package:ecommerce_app/generated/l10n.dart';
 import 'package:flutter/material.dart';
+
+import 'widgets/custom_app_bar.dart';
+import 'widgets/login_view_body.dart';
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
  static const String routeName = '/login';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text('Login View'),
-            ElevatedButton(
-              onPressed: () {
-                // Navigate to the next screen or perform login action
-              },
-              child: const Text('Login'),
-            ),
-          ],
-        ),
-      ),
+      appBar:buildAppBar(context, title: S.of(context).login), 
+      body: const LoginViewBody(),  
     );
   }
 }

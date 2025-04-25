@@ -29,6 +29,23 @@ class MessageLookup extends MessageLookupByLibrary {
     "description_on_board2": MessageLookupByLibrary.simpleMessage(
       "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
     ),
+    "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "forgot_password": MessageLookupByLibrary.simpleMessage(
+      "نسيت كلمة المرور؟",
+    ),
+    "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "login_button": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "login_with_apple": MessageLookupByLibrary.simpleMessage(
+      "تسجيل الدخول باستخدام آبل",
+    ),
+    "login_with_facebook": MessageLookupByLibrary.simpleMessage(
+      "تسجيل الدخول باستخدام فيسبوك",
+    ),
+    "login_with_google": MessageLookupByLibrary.simpleMessage(
+      "تسجيل الدخول باستخدام جوجل",
+    ),
+    "or": MessageLookupByLibrary.simpleMessage("أو"),
+    "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "title1": MessageLookupByLibrary.simpleMessage("Fresh"),
     "title1_2": MessageLookupByLibrary.simpleMessage("Market"),
     "title_on_board1": MessageLookupByLibrary.simpleMessage("مرحبًا بك في"),

@@ -44,10 +44,7 @@ class _SplashBodyViewState extends State<SplashBodyView> {
         Navigator.pushReplacementNamed(context, LoginView.routeName);
       } else {
         Navigator.pushReplacementNamed(context, OnboardingView.routeName);
-        Pref.setBool(isBoardingViewSeen, true);
       }
-        Pref.setBool(isBoardingViewSeen, true);
-
     });
   }
 

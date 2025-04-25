@@ -109,6 +109,71 @@ class S {
       args: [],
     );
   }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message('Email', name: 'email', desc: '', args: []);
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message('Password', name: 'password', desc: '', args: []);
+  }
+
+  /// `Forgot Password?`
+  String get forgot_password {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'forgot_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login_button {
+    return Intl.message('Login', name: 'login_button', desc: '', args: []);
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message('Or', name: 'or', desc: '', args: []);
+  }
+
+  /// `Login with Google`
+  String get login_with_google {
+    return Intl.message(
+      'Login with Google',
+      name: 'login_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Apple`
+  String get login_with_apple {
+    return Intl.message(
+      'Login with Apple',
+      name: 'login_with_apple',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get login_with_facebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'login_with_facebook',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -46,9 +46,8 @@ class PageViewItem extends StatelessWidget {
                   padding: const EdgeInsets.all(16),
                   child: InkWell(
                     onTap: () {
-                       Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName, (route) => false);
                        Pref.setBool(isBoardingViewSeen, true);
-                       
+                       Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName, (route) => false);
                     }  ,
                     child: CustomText(
                       text: S.of(context).Skip,

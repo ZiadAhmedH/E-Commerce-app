@@ -13,10 +13,10 @@ Route<dynamic> onGenerateRoute(RouteSettings settings){
       return MaterialPageRoute(builder: (context) => OnboardingView(),);
     case LoginView.routeName:
       return MaterialPageRoute(builder: (context) => LoginView(),);  
-    default:
-      return MaterialPageRoute(builder: (context) => Scaffold(
-        body: Center(child: Text('No route defined for ${settings.name}')),
-      ),);
+      default:
+      return MaterialPageRoute(builder: (context) => const Scaffold(
+        body: Center(child: Text('No route defined')),
+      ));
     
-  }
+  } 
 }
