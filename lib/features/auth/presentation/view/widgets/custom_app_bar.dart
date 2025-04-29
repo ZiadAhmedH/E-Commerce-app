@@ -1,4 +1,4 @@
- import 'package:ecommerce_app/core/widgets/custom_text.dart';
+import 'package:ecommerce_app/core/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 AppBar buildAppBar(context, {required String title}) {
