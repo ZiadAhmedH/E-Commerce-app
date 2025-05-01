@@ -12,11 +12,13 @@
     "email": "البريد الإلكتروني",
     "password": "كلمة المرور",
     "forgot_password": "نسيت كلمة المرور؟",
+    "dont_have_an_account": "ليس لديك حساب؟",
+    "create_account": "قم بإنشاء حساب",
     "login_button": "تسجيل الدخول",
     "or": "أو",
-    "login_with_google": "تسجيل الدخول باستخدام جوجل",
-    "login_with_apple": "تسجيل الدخول باستخدام آبل",
-    "login_with_facebook": "تسجيل الدخول باستخدام فيسبوك"
+    "login_with_google": "تسجيل بواسطة جوجل",
+    "login_with_apple": "تسجيل بواسطة أبل",
+    "login_with_facebook": "تسجيل بواسطة فيسبوك"
 
    
 

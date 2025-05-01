@@ -23,11 +23,15 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
+    "create_account": MessageLookupByLibrary.simpleMessage("Create an Account"),
     "description_on_board1": MessageLookupByLibrary.simpleMessage(
       "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.",
     ),
     "description_on_board2": MessageLookupByLibrary.simpleMessage(
       "We bring you the best handpicked fruits. Check out the details, images, and reviews to ensure you choose the perfect fruit.",
+    ),
+    "dont_have_an_account": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account?",
     ),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
     "forgot_password": MessageLookupByLibrary.simpleMessage("Forgot Password?"),

@@ -30,7 +30,7 @@ class CustemTextFormFeild extends StatelessWidget {
         focusedBorder: borderBulider(),
         fillColor: AppColor.graylight,
         filled: true,
-        suffixIcon: isPassword? Icon(iconData, color: AppColor.grayHeavyLight,) : null,
+        suffixIcon: isPassword? Icon(iconData, color: AppColor.gray,) : null,
       ),
      
     );

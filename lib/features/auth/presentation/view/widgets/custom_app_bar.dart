@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 AppBar buildAppBar(context, {required String title}) {
     return AppBar(
       title: CustomText(text: title, color: Colors.black, fontSize: 19, fontWeight: FontWeight.w700),
+      backgroundColor: Colors.white,
       centerTitle: true,
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new_outlined),

@@ -135,6 +135,26 @@ class S {
     );
   }
 
+  /// `Don't have an account?`
+  String get dont_have_an_account {
+    return Intl.message(
+      'Don\'t have an account?',
+      name: 'dont_have_an_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create an Account`
+  String get create_account {
+    return Intl.message(
+      'Create an Account',
+      name: 'create_account',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Login`
   String get login_button {
     return Intl.message('Login', name: 'login_button', desc: '', args: []);

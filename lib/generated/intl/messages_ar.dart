@@ -23,11 +23,15 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "Skip": MessageLookupByLibrary.simpleMessage("تخط"),
+    "create_account": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
     "description_on_board1": MessageLookupByLibrary.simpleMessage(
       "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
     ),
     "description_on_board2": MessageLookupByLibrary.simpleMessage(
       "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
+    ),
+    "dont_have_an_account": MessageLookupByLibrary.simpleMessage(
+      "ليس لديك حساب؟",
     ),
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "forgot_password": MessageLookupByLibrary.simpleMessage(
@@ -36,13 +40,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "login_button": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "login_with_apple": MessageLookupByLibrary.simpleMessage(
-      "تسجيل الدخول باستخدام آبل",
+      "تسجيل بواسطة أبل",
     ),
     "login_with_facebook": MessageLookupByLibrary.simpleMessage(
-      "تسجيل الدخول باستخدام فيسبوك",
+      "تسجيل بواسطة فيسبوك",
     ),
     "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "تسجيل الدخول باستخدام جوجل",
+      "تسجيل بواسطة جوجل",
     ),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
