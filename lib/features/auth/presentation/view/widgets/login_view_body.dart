@@ -72,7 +72,7 @@ class LoginViewBody extends StatelessWidget {
 
             OrDividor(),
 
-            const SizedBox(height: 16),
+            const SizedBox(height: 30),
 
             AuthCustomBtn(
               text: S.of(context).login_with_google,

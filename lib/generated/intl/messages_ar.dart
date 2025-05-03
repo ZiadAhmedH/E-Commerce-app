@@ -34,9 +34,11 @@ class MessageLookup extends MessageLookupByLibrary {
       "ليس لديك حساب؟",
     ),
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "email_address": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "forgot_password": MessageLookupByLibrary.simpleMessage(
       "نسيت كلمة المرور؟",
     ),
+    "full_name": MessageLookupByLibrary.simpleMessage("الاسم كامل"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "login_button": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "login_with_apple": MessageLookupByLibrary.simpleMessage(
@@ -48,11 +50,18 @@ class MessageLookup extends MessageLookupByLibrary {
     "login_with_google": MessageLookupByLibrary.simpleMessage(
       "تسجيل بواسطة جوجل",
     ),
+    "new_account": MessageLookupByLibrary.simpleMessage("حساب جديد"),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "title1": MessageLookupByLibrary.simpleMessage("Fresh"),
     "title1_2": MessageLookupByLibrary.simpleMessage("Market"),
     "title_on_board1": MessageLookupByLibrary.simpleMessage("مرحبًا بك في"),
     "title_on_board2": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
+    "trems_conditions": MessageLookupByLibrary.simpleMessage(
+      "من خلال إنشاء حساب ، فإنك توافق على",
+    ),
+    "trems_conditions_link": MessageLookupByLibrary.simpleMessage(
+      " الشروط والأحكام الخاصة بنا",
+    ),
   };
 }

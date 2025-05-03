@@ -17,5 +17,16 @@
     "or": "Or",
     "login_with_google": "Login with Google",
     "login_with_apple": "Login with Apple",
-    "login_with_facebook": "Login with Facebook"
+    "login_with_facebook": "Login with Facebook",
+
+
+    "new_account": "New Account",
+    "full_name": "Full Name",
+    "email_address": "Email Address",
+
+
+    "trems_conditions": "By creating an account, you agree to",
+
+    "trems_conditions_link": " our terms and conditions"
+    
 }

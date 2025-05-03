@@ -18,7 +18,27 @@
     "or": "أو",
     "login_with_google": "تسجيل بواسطة جوجل",
     "login_with_apple": "تسجيل بواسطة أبل",
-    "login_with_facebook": "تسجيل بواسطة فيسبوك"
+    "login_with_facebook": "تسجيل بواسطة فيسبوك",
+
+
+    "new_account": "حساب جديد",
+    "full_name":"الاسم كامل",
+    "email_address":"البريد الإلكتروني",
+
+
+   "trems_conditions":"من خلال إنشاء حساب ، فإنك توافق على",
+    "trems_conditions_link":" الشروط والأحكام الخاصة بنا"
+
+    
+
+
+
+
+    
+
+
+
+    
 
    
 

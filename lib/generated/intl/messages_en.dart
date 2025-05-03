@@ -34,7 +34,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Don\'t have an account?",
     ),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
+    "email_address": MessageLookupByLibrary.simpleMessage("Email Address"),
     "forgot_password": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+    "full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "login_button": MessageLookupByLibrary.simpleMessage("Login"),
     "login_with_apple": MessageLookupByLibrary.simpleMessage(
@@ -46,11 +48,18 @@ class MessageLookup extends MessageLookupByLibrary {
     "login_with_google": MessageLookupByLibrary.simpleMessage(
       "Login with Google",
     ),
+    "new_account": MessageLookupByLibrary.simpleMessage("New Account"),
     "or": MessageLookupByLibrary.simpleMessage("Or"),
     "password": MessageLookupByLibrary.simpleMessage("Password"),
     "title1": MessageLookupByLibrary.simpleMessage("Fresh"),
     "title1_2": MessageLookupByLibrary.simpleMessage("Market"),
     "title_on_board1": MessageLookupByLibrary.simpleMessage("Welcome to"),
     "title_on_board2": MessageLookupByLibrary.simpleMessage("Search and Shop"),
+    "trems_conditions": MessageLookupByLibrary.simpleMessage(
+      "By creating an account, you agree to",
+    ),
+    "trems_conditions_link": MessageLookupByLibrary.simpleMessage(
+      " our terms and conditions",
+    ),
   };
 }

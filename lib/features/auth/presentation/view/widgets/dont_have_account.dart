@@ -1,5 +1,7 @@
 import 'package:ecommerce_app/core/utils/app_color.dart';
+import 'package:ecommerce_app/features/auth/presentation/view/sign_up_view.dart';
 import 'package:ecommerce_app/generated/l10n.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 class DontHaveAccount extends StatelessWidget {
   const DontHaveAccount({
@@ -19,6 +21,10 @@ class DontHaveAccount extends StatelessWidget {
     
         children: [
           TextSpan(
+            recognizer: TapGestureRecognizer()
+              ..onTap = () {
+                Navigator.pushNamed(context, SignUpView.routeName);
+              },
             text: " ${S.of(context).create_account}",
             style: const TextStyle(
               color: AppColor.primaryColor,
