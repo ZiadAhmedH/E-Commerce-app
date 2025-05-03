@@ -1,6 +1,5 @@
 
 import 'package:ecommerce_app/core/utils/app_color.dart';
-import 'package:ecommerce_app/generated/l10n.dart';
 import 'package:flutter/material.dart';
 class CustemTextFormFeild extends StatelessWidget {
 
