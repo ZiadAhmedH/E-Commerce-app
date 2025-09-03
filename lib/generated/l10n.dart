@@ -234,6 +234,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Create New Account`
+  String get create_account_button {
+    return Intl.message(
+      'Create New Account',
+      name: 'create_account_button',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account?`
+  String get already_have_an_account {
+    return Intl.message(
+      'Already have an account?',
+      name: 'already_have_an_account',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

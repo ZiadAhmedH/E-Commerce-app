@@ -27,6 +27,11 @@
 
     "trems_conditions": "By creating an account, you agree to",
 
-    "trems_conditions_link": " our terms and conditions"
+    "trems_conditions_link": " our terms and conditions",
+
+    "create_account_button": "Create New Account",
+
+    "already_have_an_account": "Already have an account?"
+
     
 }

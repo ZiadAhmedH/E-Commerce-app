@@ -24,3 +24,17 @@ Route<dynamic> onGenerateRoute(RouteSettings settings){
     
   } 
 }
+
+
+class RouteChecker {
+  static bool isLoginRoute(String? routeName) {
+    return routeName == LoginView.routeName;
+  }
+
+  static bool isSignUpRoute(String? routeName) {
+    return routeName == SignUpView.routeName;
+  }
+}
+
+
+
