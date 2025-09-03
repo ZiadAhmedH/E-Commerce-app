@@ -40,3 +40,4 @@ lib/<br> ├── core/ <br>     # Shared resources (constants, themes, uti
 ## 🙏 Credits
 
 Special thanks to **[Tharwat Samy](https://www.facebook.com/tharwat.samy.9)** for his outstanding Flutter course that inspired and guided the development of this app.
+
